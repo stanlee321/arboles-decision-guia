@@ -1,0 +1,22 @@
+|--- edad <= 57.50
+|   |--- presion_sistolica <= 110.85
+|   |   |--- edad <= 30.50
+|   |   |   |--- class: 0
+|   |   |--- edad >  30.50
+|   |   |   |--- class: 0
+|   |--- presion_sistolica >  110.85
+|   |   |--- actividad_horas_semana <= 3.05
+|   |   |   |--- class: 0
+|   |   |--- actividad_horas_semana >  3.05
+|   |   |   |--- class: 0
+|--- edad >  57.50
+|   |--- presion_sistolica <= 131.65
+|   |   |--- edad <= 71.50
+|   |   |   |--- class: 0
+|   |   |--- edad >  71.50
+|   |   |   |--- class: 1
+|   |--- presion_sistolica >  131.65
+|   |   |--- colesterol <= 187.30
+|   |   |   |--- class: 1
+|   |   |--- colesterol >  187.30
+|   |   |   |--- class: 1

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+tmp/
+
+# Los artefactos finales del proyecto si se versionan; los auxiliares no.
+docs/generated/*.aux
+docs/generated/*.log
