@@ -78,8 +78,11 @@ make all PYTHON="conda run -n arboles-decision python" \
 
 ## Productos principales
 
-- `output/pdf/arboles-decision-guia.pdf`: texto guia listo para compartir.
-- `output/pdf/arboles-decision-presentacion.pdf`: presentacion de 11 diapositivas.
+- [Guia PDF](docs/guide/arboles-decision-guia.pdf): texto introductorio completo,
+  almacenado junto a su fuente LaTeX.
+- [Presentacion PDF](docs/slides/arboles-decision-presentacion.pdf): 11
+  diapositivas almacenadas junto a su fuente LaTeX.
+- `output/pdf/`: copias de distribucion de ambos documentos.
 - `notebooks/01_arboles_decision.ipynb`: practica guiada con salidas guardadas.
 - `output/results/metrics.json`: metricas sobre el conjunto de prueba.
 - `output/results/tree_rules.txt`: reglas legibles aprendidas por el arbol.

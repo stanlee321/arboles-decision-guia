@@ -18,9 +18,11 @@ notebook: results
 
 pdf: results
 	$(TECTONIC) docs/guide/arboles-decision-guia.tex --outdir output/pdf
+	cp output/pdf/arboles-decision-guia.pdf docs/guide/arboles-decision-guia.pdf
 
 slides: results
 	$(TECTONIC) docs/slides/arboles-decision-presentacion.tex --outdir output/pdf
+	cp output/pdf/arboles-decision-presentacion.pdf docs/slides/arboles-decision-presentacion.pdf
 
 test:
 	PYTHONPATH=src $(PYTHON) -m pytest -q
